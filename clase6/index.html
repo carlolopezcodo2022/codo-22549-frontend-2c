@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- 1 - forma: INTERNA de usar css-->
+    <style>
+        /* todo lo que escriba aca debe ser CSS */
+        h1 {
+            color: #ab2525;
+            font-size: 40px;
+        }
+
+        /*
+            alt+123 {
+            alt+125 }
+        */
+
+        /*hasta aca*/
+
+        /*estructura
+        selector {
+            propiedad: valor
+        }
+        */
+        p {
+            font-weight: bolder;
+        }
+
+        /*¿UNA CLASE?
+        LoweCamelCase
+        */
+        .otraClaseConFondoVerde {
+            background-color: green;
+        }
+
+        section {
+            background-color: yellow;
+        }
+
+        /*por ID*/
+        #btn {
+            background-color: aqua;
+        }
+
+        .btn {
+            background-color: aqua;
+        }
+    </style>
+
+
+    <!-- 3 forma: EXTERNO-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <!--
+            2- forma INLINE
+            aplicar estilo en linea
+            usando el atributo style
+        -->
+        <section class="sectionPrincipal">
+            <h1 style="color:green">Css</h1>
+            <h1>Hola</h1>
+            <h2>Soy un subtitulo h2</h2>
+
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro repellendus deleniti sapiente asperiores doloremque perferendis, eum veritatis repellat facere aspernatur, quos, nihil pariatur expedita suscipit reiciendis hic itaque. Magni, in!
+            </p>
+        </section>
+
+        <section class="otraClaseConFondoVerde">
+            <h1>hola</h1>
+        </section>
+
+        <section>
+            <form action="alta.html">
+                <label for="nombre">Nombre:</label>
+                <input name="nombre" type="text" maxlength="50" required>
+
+                <button id="btn">
+                    Enviar
+                </button>
+
+                <button class="btn">
+                    Enviar
+                </button>
+
+                <button class="btn">
+                    Enviar2
+                </button>
+            </form>            
+        </section>
+    </main>
+</body>
+</html>
