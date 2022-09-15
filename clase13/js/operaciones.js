@@ -23,4 +23,4 @@ res = (+op1) + parseInt(op2); // asigno el valor
 //muestro el resultado por consola
 //console.log(res);
 //por ALERTA
-alert('resultado= ' + res);//mustra cartel en pantalla
+alert('resultado=' + res);//mustra cartel en pantalla
