@@ -100,7 +100,8 @@ const nombresMap = alumnos.map(alumno => alumno.nombre); //quer quiero?
 console.log('nombresMap:', nombresMap);
 
 //reduce
-const sumaReduced = alumnos.reduce((acum,actual) =>  acum + actual.edad, 0); //quer quiero?
+//0
+const sumaReduced = alumnos.reduce((acum,actual) =>  acum + actual.edad, 10); //quer quiero?
 console.log('sumaReduced:', sumaReduced);
 
 //filter
