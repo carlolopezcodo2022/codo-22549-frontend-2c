@@ -28,6 +28,15 @@ interface Producto {
     nombre: string,
 }
 
+interface Producto1 {
+    buscar(): void;
+}
+
+const algo:Producto = {
+    id: 1,
+    nombre: '',
+};
+
 function comprar(prod:Producto): void{
     
 }
